@@ -1,2 +1,2 @@
-# -JNUN-Openness-Community
+# JNUN-Openness-Community
 Openness Community
