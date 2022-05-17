@@ -1,0 +1,82 @@
+@charset "UTF-8";
+/*
+  导航 navbar class
+*/
+@font-face {
+  font-family: "Noto Sans SC";
+  src: url("/assets/fonts/SourceHanSansCN-Medium.otf"); }
+@font-face {
+  font-family: "Font Quan Xin Yi Guan Hei Ti";
+  src: url("/assets/fonts/Fontquan-XinYiGuanHeiTi.ttf"); }
+.navbar-title {
+  font-size: 20px;
+  color: #0B1746;
+  font-family: "Noto Sans SC", sans-serif; }
+
+.navbar-title_info {
+  font-family: "Font Quan Xin Yi Guan Hei Ti";
+  color: #006FEA; }
+
+.navbar-menu_logo {
+  margin-left: 50px; }
+  @media screen and (max-width: 1024px) {
+    .navbar-menu_logo {
+      margin-left: 0px; } }
+
+.navbar-column_layout {
+  float: left;
+  display: flex;
+  list-style: none; }
+
+.navbar-title_a {
+  font-size: 19px;
+  font-family: "Font Quan Xin Yi Guan Hei Ti";
+  color: #006FEA; }
+
+.navbar-back_announcement {
+  background: #006FEA;
+  border-radius: 7px;
+  color: #ffffff;
+  font-family: "Font Quan Xin Yi Guan Hei Ti"; }
+  @media screen and (max-width: 1024px) {
+    .navbar-back_announcement {
+      height: 39px;
+      margin-top: 16px; } }
+
+.navbar-style_width {
+  width: 1444px;
+  margin: 0 auto; }
+  @media screen and (max-width: 1024px) {
+    .navbar-style_width {
+      width: 100%; } }
+
+/*
+  标签选择
+ */
+.tabs li.is-active.is-active_this a {
+  border-bottom-color: #006FEA;
+  border-bottom: 3px solid #006FEA; }
+
+.tabs-title {
+  font-family: "Noto Sans SC";
+  font-size: 18px;
+  color: #0B1746; }
+
+.istabs {
+  font-family: "Noto Sans SC";
+  color: #D9DADD;
+  font-size: 18px; }
+
+.istabs-info {
+  font-family: "Font Quan Xin Yi Guan Hei Ti";
+  color: #D9DADD;
+  font-size: 18px; }
+
+.tabs-title_info {
+  font-family: "Font Quan Xin Yi Guan Hei Ti";
+  font-size: 18px;
+  color: #006FEA; }
+  .tabs-title_info .istabs-title {
+    color: #D9DADD; }
+
+/*# sourceMappingURL=style.css.map */

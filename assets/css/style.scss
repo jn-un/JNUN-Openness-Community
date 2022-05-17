@@ -1,0 +1,101 @@
+// font size
+$font-size_title: 20px;
+
+// color
+$color_black: #0B1746;
+$color_blue: #006FEA;
+$color_grey: #D9DADD;
+/*
+  导航 navbar class
+*/
+@font-face {
+  font-family: "Noto Sans SC";
+  src: url("/assets/fonts/SourceHanSansCN-Medium.otf");
+}
+
+@font-face {
+  font-family: "Font Quan Xin Yi Guan Hei Ti";
+  src: url("/assets/fonts/Fontquan-XinYiGuanHeiTi.ttf");
+}
+
+.navbar-title {
+  font-size: $font-size_title;
+  color: $color_black;
+  font-family: "Noto Sans SC", sans-serif;
+}
+
+.navbar-title_info {
+  font-family: "Font Quan Xin Yi Guan Hei Ti";
+  color: $color_blue;
+}
+
+.navbar-menu_logo {
+  margin-left: 50px;
+  @media screen and (max-width: 1024px) {
+    margin-left: 0px;
+  }
+}
+
+.navbar-column_layout {
+  float: left;
+  display: flex;
+  list-style: none;
+}
+
+.navbar-title_a {
+  font-size: 19px;
+  font-family: "Font Quan Xin Yi Guan Hei Ti";
+  color: $color_blue;
+}
+
+.navbar-back_announcement {
+  background: $color_blue;
+  border-radius: 7px;
+  color: #ffffff;
+  font-family: "Font Quan Xin Yi Guan Hei Ti";
+  @media screen and (max-width: 1024px) {
+    height: 39px;
+    margin-top: 16px;
+  }
+}
+
+.navbar-style_width {
+  width: 1444px;
+  margin: 0 auto;
+  @media screen and (max-width: 1024px) {
+    width: 100%;
+  }
+}
+
+/*
+  标签选择
+ */
+.tabs li.is-active.is-active_this a {
+  border-bottom-color: $color_blue;
+  border-bottom: 3px solid $color_blue;
+}
+
+.tabs-title {
+  font-family: "Noto Sans SC";
+  font-size: 18px;
+  color: $color_black;
+}
+
+.istabs {
+  font-family: "Noto Sans SC";
+  color: $color-grey;
+  font-size: 18px;
+}
+.istabs-info {
+  font-family: "Font Quan Xin Yi Guan Hei Ti";
+  color: $color-grey;
+  font-size: 18px;
+}
+.tabs-title_info {
+  font-family: "Font Quan Xin Yi Guan Hei Ti";
+  font-size: 18px;
+  color: $color_blue;
+  .istabs-title{
+    color: $color_grey;
+  }
+}
