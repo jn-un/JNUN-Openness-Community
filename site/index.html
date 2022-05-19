@@ -9,6 +9,9 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://unpkg.com/htmlincludejs"></script>
   <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+  <link rel="apple-touch-icon" sizes="180x180" href="https://49812933408852955071488026628034-1301075051.cos.ap-nanjing.myqcloud.com/202205190935019.png">
+  <link rel="icon" type="image/png" href="https://49812933408852955071488026628034-1301075051.cos.ap-nanjing.myqcloud.com/202205190934796.png" sizes="32x32">
+  <link rel="stylesheet" href="../assets/css/swiper-bundle.css"/>
 </head>
 <body>
   <include src="../layouts/base/navigation.html"></include>
@@ -19,6 +22,43 @@
         $(".navbar-menu").toggleClass("is-active");
       });
     })
+  </script>
+  <!-- Swiper -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="columns">
+          <div class="column"><p class="swiper-title">一起构建美好<br>
+            <span>任何提案,我们都将随之实现并为此努力</span></p>
+            <button class="button is-small swiper-button">阅读我们的章程<span class="swiper-button_next"></span></button>
+          </div>
+          <div class="column">
+            <img src="https://49812933408852955071488026628034-1301075051.cos.ap-nanjing.myqcloud.com/202205192034504.png" width="1123" height="386.73">
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">null</div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+  </div>
+  <script src="../assets/js/swiper-bundle.js"></script>
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      loop: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
   </script>
 </body>
 </html>

@@ -18,6 +18,11 @@ $color_grey: #D9DADD;
   src: url("/assets/fonts/Fontquan-XinYiGuanHeiTi.ttf");
 }
 
+@font-face {
+  font-family: "Source Han Sans Bold";
+  src: url("/assets/fonts/SourceHanSansCN-Bold.otf");
+}
+
 .navbar-title {
   font-size: $font-size_title;
   color: $color_black;
@@ -75,6 +80,22 @@ $color_grey: #D9DADD;
   border-bottom: 3px solid $color_blue;
 }
 
+.active-mouse_over:hover span {
+  color: $color_blue;
+  transition: all 0.08s;
+}
+
+.active-mouse_over:hover over {
+  color: $color_black;
+  transition: all 0.08s;
+}
+
+li.is-active a:hover{
+  border-bottom-color: $color_blue;
+  border-bottom: 3px solid $color_blue;
+  transition: all 0.08s;
+}
+
 .tabs-title {
   font-family: "Noto Sans SC";
   font-size: 18px;
@@ -98,4 +119,81 @@ $color_grey: #D9DADD;
   .istabs-title{
     color: $color_grey;
   }
+}
+
+// banner .swiper
+.swiper {
+  width: 1440px;
+  height: 285px;
+}
+
+.swiper-slide {
+
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.swiper-title {
+  font-family: "Source Han Sans Bold";
+  font-size: 25px;
+  color: $color_blue;
+  margin-bottom: 12px;
+  margin-top: 50px;
+}
+
+.swiper-title span {
+  font-size: 30px;
+  color: $color_black;
+}
+
+.swiper-button {
+  border-radius: 0;
+  height: 21px;
+  background: #006FEA;
+  color: #FFF;
+}
+
+.swiper-button:hover {
+  color: #FFFFFF;
+}
+
+.swiper-button:focus {
+  color: #FFFFFF;
+}
+
+.swiper-button_next:after {
+  content: '';
+  background: url("https://49812933408852955071488026628034-1301075051.cos.ap-nanjing.myqcloud.com/202205192012436.png");
+  display: inline-block;
+  width: 46px;
+  height: 22px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center left;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.swiper-button:hover .swiper-button_next:after {
+  content: '';
+  background: url("https://49812933408852955071488026628034-1301075051.cos.ap-nanjing.myqcloud.com/202205192012436.png");
+  display: inline-block;
+  width: 46px;
+  height: 22px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center left;
+  margin-left: 20px;
+  margin-top: 5px;
+  transition: all 0.08s;
 }
