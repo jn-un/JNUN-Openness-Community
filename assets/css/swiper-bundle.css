@@ -219,7 +219,7 @@
   left: 3px;
   right: auto;
   top: 275px;
-  background-image: url("https://49812933408852955071488026628034-1301075051.cos.ap-nanjing.myqcloud.com/202205191101164.png");
+  background-image: url("/assets/img/202205191101164.png");
   display: inline-block;
   width: 46px;
   height: 22px;
@@ -235,7 +235,7 @@
 .swiper-rtl .swiper-button-prev {
   left: 75px;
   top: 275px;
-  background-image: url("https://49812933408852955071488026628034-1301075051.cos.ap-nanjing.myqcloud.com/202205191247776.png");
+  background-image: url("/assets/img/202205191247776.png");
   display: inline-block;
   width: 46px;
   height: 22px;
