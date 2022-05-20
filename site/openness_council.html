@@ -5,6 +5,53 @@
     <title>Title</title>
 </head>
 <body>
-    openness_council
+    <!-- Swiper -->
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide swiper-logo_openness_council">
+                <img src="/assets/img/t3Pc6B.png">
+                <svg width="1443" height="252" viewBox="0 0 1443 252" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 211H586L626 251H1443" stroke="#D9DADD"/>
+                    <path d="M753 1H791.5L705.5 87V48.5L753 1Z" fill="#006FEA"/>
+                    <path d="M1404 251L1391 238H574L542.5 198H8.5L14 210.5" stroke="#D9DADD"/>
+                    <path d="M999 236.5L1068.5 167H1441.5" stroke="#D9DADD"/>
+                    <path d="M1216.5 167L1081.5 32L1050.5 1H1" stroke="#D9DADD"/>
+                    <path d="M111 198H177L208.5 166.5H448.5H626L790 2.5" stroke="#D9DADD"/>
+                    <path d="M738 14L734 34.5L747 45" stroke="white"/>
+                </svg>
+                <div class="swiper-openness_council_title">
+                    <p class="swiper-title">(P)22/0502<br>
+                        <span>针对组织章程的部分修改与完善</span></p>
+                    <button class="button is-small swiper-button">添加到日历<span class="swiper-button_next"></span></button>
+               </div>
+                <!-- 会议信息 -->
+                <div>
+                    <p class="swiper-openness_council_data">Date 18May</p>
+                    <p class="swiper-openness_council_datatitle">2022年5月18日 20:00 香港时间/ 8:00 美东时间</p>
+                    <p class="swiper-openness_council_titlename">关于 (C)22/0426 号提案于<br><span>2022/5/12 进行网络会议时间公布</span></p>
+                </div>
+            </div>
+            <div class="swiper-slide">null</div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+    </div>
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            loop: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
 </body>
 </html>

@@ -23,6 +23,11 @@ $color_grey: #D9DADD;
   src: url("/assets/fonts/SourceHanSansCN-Bold.otf");
 }
 
+@font-face {
+  font-family: "Source Han Sans CN Regular";
+  src: url("/assets/fonts/SourceHanSansCN-Regular.otf");
+}
+
 .navbar-title {
   font-size: $font-size_title;
   color: $color_black;
@@ -129,17 +134,6 @@ li.is-active a:hover{
   height: 285px;
 }
 
-.swiper-slide {
-
-}
-
-.swiper-slide img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
 .swiper {
   margin-left: auto;
   margin-right: auto;
@@ -198,4 +192,199 @@ li.is-active a:hover{
   margin-left: 20px;
   margin-top: 5px;
   transition: all 0.08s;
+}
+
+.swiper-logo_openness_council  img {
+  width: 192px;
+  height: auto;
+  left: 799px;
+  position: absolute;
+  top: 48px;
+}
+
+// swiper-openness_council
+.swiper-logo_openness_council p {
+  position: absolute;
+}
+
+.swiper-openness_council_data {
+  font-family: "Font Quan Xin Yi Guan Hei Ti";
+  color: #ffffff;
+  font-size: 16px;
+  top: 21px;
+  transform: rotate(-45deg);
+  right: 660px;
+}
+
+.swiper-openness_council_title {
+  top: -21px;
+  position: absolute;
+  width: 532px;
+}
+
+.swiper-openness_council_title button{
+  top: 147px;
+}
+
+.swiper-openness_council_datatitle {
+  font-family: "Font Quan Xin Yi Guan Hei Ti";
+  color: $color_black;
+  font-size: 15px;
+  top: 171px;
+  left: 208px;
+}
+
+.swiper-openness_council_titlename {
+  font-family: "Font Quan Xin Yi Guan Hei Ti";
+  color: $color_black;
+  font-size: 15px;
+  top: 176px;
+  right: 66px;
+}
+
+.swiper-openness_council_titlename span {
+  font-size: 24px;
+}
+
+// swiper-openness_engineering_group
+.swiper-openness_engineering_group_info img {
+  position: absolute;
+}
+.swiper-openness_engineering_group_info p {
+  position: absolute;
+}
+.swiper-openness_engineering_group_title_logo {
+  width: 221px;
+  top: 21px;
+  height: auto;
+  left: 20px;
+}
+.swiper-openness_engineering_group_title_next {
+  width: 97px;
+  top: 116px;
+  left: 323px;
+}
+
+.swiper-openness_engineering_group_title_name {
+  font-size: 15px;
+  color: $color-blue;
+  font-family: "Font Quan Xin Yi Guan Hei Ti";
+  left: 496px;
+  top: 107px;
+}
+
+.swiper-openness_engineering_group_title_name span {
+  font-size: 20px;
+  font-family: "Source Han Sans Bold";
+  color: $color-black;
+}
+
+.swiper-openness_engineering_group_platform_description p {
+  font-family: "Source Han Sans Bold";
+  font-size: 15px;
+  top: 209px;
+  left: 227px;
+  color: $color-blue;
+}
+
+.swiper-openness_engineering_group_platform_description span {
+  color: $color-black;
+}
+
+.swiper-openness_engineering_group_platform_description descript {
+  font-size: 12px;
+  font-family: "Source Han Sans CN-Regular";
+  color: $color_grey;
+  margin-left: 4px;
+}
+.swiper-openness_engineering_group_platform_description_this:after {
+  content: "";
+  width: 0.9px;
+  height: 61px;
+  position: absolute;
+  background: #007FFF;
+  top: -8px;
+  margin-left: 29px;
+  transform: rotate(45deg);
+}
+
+.swiper-openness_engineering_group_platform_description_next {
+  margin-left: 181px;
+  width: 181px;
+  height: 41px;
+  overflow: hidden;
+}
+
+.swiper-openness_engineering_group_schedule {
+  top: 168px;
+  position: absolute;
+  width: 248px;
+  left: 479px;
+}
+.swiper-openness_engineering_group_schedule p {
+  font-family: "Source Han Sans Bold";
+  font-size: 12px;
+  color: $color_grey;
+  margin-left: 133px;
+  top: 6px;
+  padding-left: 19px;
+  border-left: 1.5px solid $color_grey;
+}
+
+.swiper-openness_engineering_group_schedule img {
+  width: 117px;
+}
+
+.swiper-openness_engineering_group_schedule span {
+  font-size: 15px;
+  color: $color_black;
+}
+
+.swiper-openness_engineering_group_schedule_rate {
+  margin-top: 67px;
+  margin-left: 125px;
+  .this {
+    background: #EBF1F5;
+  }
+}
+
+.swiper-openness_engineering_group_schedule_rate ul li {
+  width: 121px;
+  height: 9px;
+  transform: skew(50deg);
+  background: #007FFF;
+  margin-left: 10px;
+}
+
+.swiper-openness_engineering_group_schedule_rate ul {
+  float: left;
+  display: flex;
+}
+
+.swiper-openness_engineering_group_schedule_info {
+  position: absolute;
+  top: 164px;
+  right: 656px;
+  font-size: 12px;
+  color: #D9DADD;
+  font-family: "Font Quan Xin Yi Guan Hei Ti";
+ }
+
+.swiper-openness_engineering_group_info desc_info {
+  position: absolute;
+  top: 181px;
+  right: 273px;
+  width: 393px;
+  font-size: 12px;
+  color: #D9DADD;
+  font-family: "Font Quan Xin Yi Guan Hei Ti";
+}
+
+.swiper-openness_engineering_group_info desc_data {
+  position: absolute;
+  top: 161px;
+  right: 126px;
+  font-size: 15px;
+  color: white;
+  font-family: "Font Quan Xin Yi Guan Hei Ti";
 }

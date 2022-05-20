@@ -5,6 +5,76 @@
     <title>Title</title>
 </head>
 <body>
-    openness_engineering_group
+    <!-- Swiper -->
+    <div class="swiper mySwiper" style="height: 328px">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <svg width="1442" height="273" viewBox="0 0 1442 273" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M303.5 103.88H1118.5L1200.5 186.183" stroke="#D9DADD"/>
+                    <path d="M36 0.5L0.5 36.131V245.902L22.5 267.983H162L314.5 114.921L200.5 0.5H36Z" stroke="#D9DADD"/>
+                    <path d="M175 258.448H339.5L340 258.95M340 258.95L353.5 272.5H1440L1426.5 258.95H340Z" stroke="#D9DADD"/>
+                    <path d="M1200.5 186.685L1351 186.685L1423 258.95" stroke="#D9DADD"/>
+                    <path d="M1321 158.581H1174.5L1173.5 159.585L1200.5 186.684H1350.5L1321 158.581Z" fill="#006FEA"/>
+                    <path d="M1 29.607V36.131L35.5 0.5H30L1 29.607Z" fill="#006FEA"/>
+                    <path d="M226.5 205.253H436.5L478.5 163.098H1176" stroke="#D9DADD"/>
+                    <path d="M429.5 103.88L467 141.518L477.5 152.057L467 162.596L425 204.751" stroke="#D9DADD"/>
+                    <path d="M436.5 205.755L455 224.323H577.5L611.5 258.448" stroke="#D9DADD"/>
+                    <path d="M717 163.098L770.5 216.795H1379.5" stroke="#D9DADD"/>
+                    <path d="M735.5 181.666H1158L1193 216.795" stroke="#D9DADD"/>
+                    <path d="M737 181.164L753.5 164.603H791L808.5 182.168" stroke="#D9DADD"/>
+                </svg>
+                <!-- 计划信息 -->
+                <div class="swiper-openness_engineering_group_info">
+                    <img src="/assets/img/1653054774.png" class="swiper-openness_engineering_group_title_logo">
+                    <img src="/assets/img/t3Pc6B.png" class="swiper-openness_engineering_group_title_next">
+                    <p class="swiper-openness_engineering_group_title_name">(P)22/0404<br><span>最新组件库“蛟龙”列入(P)21-0924号工程计划为子项目</span></p>
+                    <!-- 开发计划标题 -->
+                    <div class="swiper-openness_engineering_group_platform_description">
+                        <p class="swiper-openness_engineering_group_platform_description_this">OEG<br><span>工程计划组</span><descript>工程计划</descript></p>
+                        <p class="swiper-openness_engineering_group_platform_description_next">OCT<br><span>TW224-4/1</span><descript>OPENNESS COMMUNITY & IDEA  开发申报</descript></p>
+                    </div>
+                    <!-- 开发项目进度和状态 -->
+                    <div class="swiper-openness_engineering_group_schedule">
+                        <img src="/assets/img/1653058086.png">
+                        <p>非直象<br><span>提案完成进度</span></p>
+                        <div class="swiper-openness_engineering_group_schedule_rate">
+                            <ul>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li class="this"></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <p class="swiper-openness_engineering_group_schedule_info">INFO</p><br>
+                        <desc_info>通过尖锐性的设计理念所体现视觉效果，取消过度和普遍圆润效果，通过组件库和设计语言进行实现</desc_info>
+                        <desc_data>DATA:2022/4-4</desc_data>
+                </div>
+            </div>
+            <div class="swiper-slide">null</div>
+        </div>
+        <div class="swiper-button-next" style="top: 317px"></div>
+        <div class="swiper-button-prev" style="top: 317px"></div>
+        <div class="swiper-pagination"></div>
+    </div>
+    <script src="../assets/js/swiper-bundle.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            loop: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
 </body>
 </html>
