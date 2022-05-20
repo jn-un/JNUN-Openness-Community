@@ -60,6 +60,9 @@
   border-bottom-color: #006FEA;
   border-bottom: 3px solid #006FEA; }
 
+.isactive_this a p {
+  color: red; }
+
 .active-mouse_over:hover span {
   color: #006FEA;
   transition: all 0.08s; }

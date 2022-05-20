@@ -79,7 +79,9 @@ $color_grey: #D9DADD;
   border-bottom-color: $color_blue;
   border-bottom: 3px solid $color_blue;
 }
-
+.isactive_this a p {
+  color: red;
+}
 .active-mouse_over:hover span {
   color: $color_blue;
   transition: all 0.08s;

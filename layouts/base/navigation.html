@@ -60,22 +60,22 @@
 </nav>
 <div class="tabs is-centered">
     <ul>
-        <li class="is-active is-active_this">
-            <a style="text-align: -webkit-left;display: block;">
+        <li class="is-active is-active_this" id="openness_proposal_li">
+            <a style="text-align: -webkit-left;display: block;" onclick="openness_proposal()">
             <p class="active-mouse_over">
                 <over class="tabs-title">开放性提案</over><br>
                 <span class="tabs-title_info">OPENNESS PROPOSAL</span>
             </p>
             </a>
         </li>
-        <li class="is-active">
-            <a><p class="active-mouse_over">
+        <li class="is-active" id="openness_council_li">
+            <a onclick="openness_council()"><p class="active-mouse_over">
                 <over class="istabs">开放性决策</over><br>
-                <span class="istabs-info">OPENNES SCOUNCIL</span>
+                <span class="istabs-info">OPENNESS COUNCIL</span>
             </p></a>
         </li>
-        <li class="is-active">
-            <a style="text-align: -webkit-right;display: block;">
+        <li class="is-active" id="openness_engineering_group_li">
+            <a onclick="openness_engineering_group()" style="text-align: -webkit-right;display: block;">
                 <p class="active-mouse_over">
                     <over class="istabs" style="margin-right: 82px">执行的提案</over><br>
                     <span class="istabs-info">ENGINEERING GROUP</span>

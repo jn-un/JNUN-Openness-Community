@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>开放社区 - 支持你的想法完成你的提案</title>
+  <link rel="stylesheet" href="../assets/css/bulma.css">
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://unpkg.com/htmlincludejs"></script>
+  <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/img//202205190935019.png">
+  <link rel="icon" type="image/png" href="/assets/img//202205190934796.png" sizes="32x32">
+  <link rel="stylesheet" href="../assets/css/swiper-bundle.css"/>
+</head>
+<body>
+  <include src="../layouts/base/navigation.html"></include>
+  <script>
+    $(function(){
+      $("body").on("click",".navbar-burger",function(){
+        $(".navbar-burger").toggleClass("is-active");
+        $(".navbar-menu").toggleClass("is-active");
+      });
+    })
+    function openness_proposal() {
+      $("#contentLoadingSection").load("openness_proposal.html", function (data) {
+        // 让其他未选择连接变回未选择颜色
+        $("#openness_engineering_group_li a p over").css("color", "#D9DADD");
+        $("#openness_engineering_group_li a p span").css("color", "#D9DADD");
+        $("#openness_engineering_group_li a").css("border-bottom", "0px solid red");
+        $("#openness_council_li a p over").css("color", "#D9DADD");
+        $("#openness_council_li a p span").css("color", "#D9DADD");
+        $("#openness_council_li a").css("border-bottom", "0px solid red");
+        // 改变自身选择颜色
+        $("#openness_proposal_li over").css("color", "#0B1746");
+        $("#openness_proposal_li span").css("color", "#006FEA");
+        $("#openness_proposal_li").addClass("is-active_this");
+        $("#openness_proposal_li a").css("border-bottom", "3px solid #006FEA");
+
+      })
+    }
+    function openness_council() {
+      $("#contentLoadingSection").load("openness_council.html", function (data) { /* textStatus */
+        // 让其他未选择连接变回未选择颜色
+        $("#openness_proposal_li a p over").css("color", "#D9DADD");
+        $("#openness_proposal_li a p span").css("color", "#D9DADD");
+        $("#openness_proposal_li a").css("border-bottom", "0px solid red");
+        $("#openness_engineering_group_li a p over").css("color", "#D9DADD");
+        $("#openness_engineering_group_li a p span").css("color", "#D9DADD");
+        $("#openness_engineering_group_li a").css("border-bottom", "0px solid red");
+        // 改变自身选择颜色
+        $("#openness_council_li over").css("color", "#0B1746");
+        $("#openness_council_li span").css("color", "#006FEA");
+        $("#openness_council_li").addClass("is-active_this");
+        $("#openness_council_li a").css("border-bottom", "3px solid #006FEA");
+      })
+    }
+    function openness_engineering_group() {
+      $("#contentLoadingSection").load("openness_engineering_group.html", function (data) {
+        // 让其他未选择连接变回未选择颜色
+        $("#openness_proposal_li a p over").css("color", "#D9DADD");
+        $("#openness_proposal_li a p span").css("color", "#D9DADD");
+        $("#openness_proposal_li a").css("border-bottom", "0px solid red");
+        $("#openness_council_li a p over").css("color", "#D9DADD");
+        $("#openness_council_li a p span").css("color", "#D9DADD");
+        $("#openness_council_li a").css("border-bottom", "0px solid red");
+        // 改变自身选择颜色
+        $("#openness_engineering_group_li over").css("color", "#0B1746");
+        $("#openness_engineering_group_li span").css("color", "#006FEA");
+        $("#openness_engineering_group_li").addClass("is-active_this");
+        $("#openness_engineering_group_li a").css("border-bottom", "3px solid #006FEA");
+      })
+    }
+  </script>
+  <!-- contentLoadingSection -->
+  <div id="contentLoadingSection">
+    <!-- Swiper -->
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="columns">
+            <div class="column"><p class="swiper-title">一起构建美好<br>
+              <span>任何提案,我们都将随之实现并为此努力</span></p>
+              <button class="button is-small swiper-button">阅读我们的章程<span class="swiper-button_next"></span></button>
+            </div>
+            <div class="column">
+              <img src="/assets/img/202205192034504.png">
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">null</div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+    <script src="../assets/js/swiper-bundle.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+  </div>
+</body>
+</html>
