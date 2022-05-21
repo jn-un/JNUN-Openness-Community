@@ -451,6 +451,10 @@ li.is-active a:hover{
   text-align: center;
 }
 
+.openness_proposal-main_idea_update:hover {
+  color: #ffffffd1;
+  transition: all 1.08s;
+}
 .openness_proposal-main_content sidebar-con {
   position: relative;
   top: -1275px;
@@ -508,4 +512,72 @@ li.is-active a:hover{
   call {
     color: $color-blue;
   }
+}
+
+sidebar-info {
+  top: 530px;
+  position: absolute;
+  div {
+    font-family: "Source Han Sans CN-Regular";
+    width: 1079px;
+    margin-bottom: 23px;
+    border-bottom: 2px solid $color_grey;
+    padding-bottom: 20px;
+  }
+  div number {
+    color: $color-blue;
+    font-size: 15px;
+  }
+  div titles {
+    font-size: 20px;
+    color: $color_black
+  }
+  div tag name {
+    color: white;
+    padding: 3px;
+    font-size: 9px;
+    font-style: normal;
+    transform: skew(10deg);
+    display: inline-block;
+    margin-left: 5px;
+  }
+  div outher {
+    right: -224px;
+    position: relative;
+    data {
+      font-size: 15px;
+      color: $color_grey;
+    }
+    data:after {
+      content: "";
+      background-image: url(/assets/img/1653144556.png);
+      display: inline-block;
+      width: 19.9px;
+      height: 20.73px;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center left;
+      position: relative;
+      left: -85px;
+      top: 6px;
+    }
+    people {
+      color: $color-blue;
+      margin-left: 16px;
+    }
+    people:after {
+      content: "";
+      background-image: url(/assets/img/1653144589.png);
+      display: inline-block;
+      width: 32px;
+      height: 19px;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center left;
+      position: relative;
+      left: -49px;
+      top: 3px;
+    }
+  }
+
 }
