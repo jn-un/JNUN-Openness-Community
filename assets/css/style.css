@@ -325,4 +325,110 @@ li.is-active a:hover {
   color: white;
   font-family: "Font Quan Xin Yi Guan Hei Ti"; }
 
+.openness_proposal-main_content {
+  width: 1440px;
+  height: auto;
+  margin: 0 auto; }
+
+.openness_proposal-main_content start {
+  margin: 0 auto;
+  display: table;
+  margin-top: 2px; }
+  .openness_proposal-main_content start p {
+    position: relative; }
+
+.openness_proposal-main_content sidebar svg {
+  left: 1115px;
+  top: -85px;
+  position: relative; }
+
+.openness_proposal-main_title {
+  font-size: 24px;
+  font-family: "Font Quan Xin Yi Guan Hei Ti";
+  color: #0B1746;
+  top: -127px;
+  left: 140px; }
+
+.openness_proposal-main_title_info {
+  font-size: 24px;
+  font-family: "Font Quan Xin Yi Guan Hei Ti";
+  color: #0B1746;
+  top: -104px;
+  right: -1128px; }
+
+.openness_proposal-main_idea {
+  width: 111px;
+  right: -1140px;
+  position: relative;
+  top: -1301px; }
+
+.openness_proposal-main_proposal {
+  width: 94px;
+  right: -1204px;
+  position: relative;
+  top: -1321px; }
+
+.openness_proposal-main_idea_update {
+  font-family: "Font Quan Xin Yi Guan Hei Ti";
+  font-size: 15px;
+  color: #ffffff;
+  position: relative;
+  right: -1266px;
+  top: -1187px;
+  width: 180px;
+  cursor: pointer;
+  text-align: center; }
+
+.openness_proposal-main_content sidebar-con {
+  position: relative;
+  top: -1275px;
+  right: -1130px;
+  width: 303px;
+  overflow: auto;
+  display: block; }
+  .openness_proposal-main_content sidebar-con p {
+    font-size: 14px;
+    color: #0B1746;
+    font-family: "Font Quan Xin Yi Guan Hei Ti"; }
+  .openness_proposal-main_content sidebar-con descript p {
+    font-size: 12px;
+    font-family: "Source Han Sans CN-Regular";
+    margin-top: 10px; }
+
+.layui-colla-title:after {
+  content: "";
+  background-image: url(/assets/img/1653131616.png);
+  display: -webkit-box;
+  width: 13.83px;
+  height: 22.83px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center left;
+  float: left;
+  margin-left: -20px; }
+
+.layui-colla-item down {
+  /* left: 65px; */
+  top: 10px;
+  background-image: url(/assets/img/1653134348.png);
+  display: -webkit-box;
+  float: left;
+  width: 13px;
+  height: 6px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center left;
+  left: 230px;
+  position: inherit; }
+
+.layui-colla-content desc {
+  font-family: "Source Han Sans CN-Regular";
+  color: #0B1746;
+  font-size: 12px;
+  display: block;
+  padding: 10px;
+  border-bottom: 1px solid #D9DADD; }
+  .layui-colla-content desc call {
+    color: #006FEA; }
+
 /*# sourceMappingURL=style.css.map */
