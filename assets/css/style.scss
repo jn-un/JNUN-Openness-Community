@@ -293,7 +293,7 @@ li.is-active a:hover{
 
 .swiper-openness_engineering_group_platform_description descript {
   font-size: 12px;
-  font-family: "Source Han Sans CN-Regular";
+  font-family: "Source Han Sans CN Regular";
   color: $color_grey;
   margin-left: 4px;
 }
@@ -469,7 +469,7 @@ li.is-active a:hover{
   }
   descript p {
     font-size: 12px;
-    font-family: "Source Han Sans CN-Regular";
+    font-family: "Source Han Sans CN Regular";
     margin-top: 10px;
   }
 }
@@ -503,7 +503,7 @@ li.is-active a:hover{
 }
 
 .layui-colla-content desc {
-  font-family: "Source Han Sans CN-Regular";
+  font-family: "Source Han Sans CN Regular";
   color: #0B1746;
   font-size: 12px;
   display: block;
@@ -518,7 +518,7 @@ sidebar-info {
   top: 530px;
   position: absolute;
   div {
-    font-family: "Source Han Sans CN-Regular";
+    font-family: "Source Han Sans CN Regular";
     width: 1079px;
     margin-bottom: 23px;
     border-bottom: 2px solid $color_grey;
@@ -542,8 +542,10 @@ sidebar-info {
     margin-left: 5px;
   }
   div outher {
-    right: -224px;
-    position: relative;
+    right: -44px;
+    position: absolute;
+    width: 159px;
+    display: inline-block;
     data {
       font-size: 15px;
       color: $color_grey;

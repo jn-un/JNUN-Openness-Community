@@ -241,7 +241,7 @@ li.is-active a:hover {
 
 .swiper-openness_engineering_group_platform_description descript {
   font-size: 12px;
-  font-family: "Source Han Sans CN-Regular";
+  font-family: "Source Han Sans CN Regular";
   color: #D9DADD;
   margin-left: 4px; }
 
@@ -396,7 +396,7 @@ li.is-active a:hover {
     font-family: "Font Quan Xin Yi Guan Hei Ti"; }
   .openness_proposal-main_content sidebar-con descript p {
     font-size: 12px;
-    font-family: "Source Han Sans CN-Regular";
+    font-family: "Source Han Sans CN Regular";
     margin-top: 10px; }
 
 .layui-colla-title:after {
@@ -426,7 +426,7 @@ li.is-active a:hover {
   position: inherit; }
 
 .layui-colla-content desc {
-  font-family: "Source Han Sans CN-Regular";
+  font-family: "Source Han Sans CN Regular";
   color: #0B1746;
   font-size: 12px;
   display: block;
@@ -439,7 +439,7 @@ sidebar-info {
   top: 530px;
   position: absolute; }
   sidebar-info div {
-    font-family: "Source Han Sans CN-Regular";
+    font-family: "Source Han Sans CN Regular";
     width: 1079px;
     margin-bottom: 23px;
     border-bottom: 2px solid #D9DADD;
@@ -459,8 +459,10 @@ sidebar-info {
     display: inline-block;
     margin-left: 5px; }
   sidebar-info div outher {
-    right: -224px;
-    position: relative; }
+    right: -44px;
+    position: absolute;
+    width: 159px;
+    display: inline-block; }
     sidebar-info div outher data {
       font-size: 15px;
       color: #D9DADD; }
