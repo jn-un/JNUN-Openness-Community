@@ -1772,10 +1772,7 @@ a cite {
 }
 
 .layui-collapse {
-    border-width: 1px;
-    border-style: solid;
     height: 560px;
-    border: 1px solid red;
     border-radius: 2px;
     margin-top: 24px;
 }

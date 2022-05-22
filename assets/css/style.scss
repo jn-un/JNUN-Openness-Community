@@ -392,8 +392,9 @@ li.is-active a:hover{
 // openness_proposal-main_content
 .openness_proposal-main_content {
   width: 1440px;
-  height: auto;
+  height: 0;
   margin: 0 auto;
+  display: grid;
 }
 .openness_proposal-main_content start {
   margin: 0 auto;
@@ -586,12 +587,12 @@ sidebar-info {
 // bottom
 bottom {
   position: relative;
-  top: -1136px;
+  top: -1113px;
   width: 1424px;
   banner {
     font-family: "Font Quan Xin Yi Guan Hei Ti";
     display: grid;
-    height: 226px;
+    height: 231px;
     background-image: url(/assets/img/1653185209.png);
     background-size: contain;
     background-repeat: no-repeat;
@@ -649,4 +650,224 @@ bottom {
       font-size: 24px;
     }
   }
+  news {
+    width: 1439px;
+    margin: 0 auto;
+    margin-top: 30px;
+    height: 224px;
+    data {
+      color: white;
+      font-family: "Source Han Sans CN Regular";
+      box-sizing:border-box;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center left;
+      tag {
+        font-size: 12px;
+        margin-top: 80px;
+        width: 357.5px;
+        display: block;
+        height: 20px;
+        line-height: 2.3;
+        background-image: url(/assets/img/1653200109.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center left;
+      }
+      titles {
+        font-size: 20px;
+      }
+      desc {
+        font-size: 12px;
+        display: block;
+      }
+      icon {
+        width: 196px;
+        text-align: center;
+        display: block;
+        margin-top: 70px;
+        font-size: 16px;
+      }
+    }
+    data:hover {
+      opacity: 0.7;
+      cursor: pointer;
+      transition: all 0.18s;
+    }
+  }
+  recom {
+    font-family: "Font Quan Xin Yi Guan Hei Ti";
+    color: #0B1746;
+    margin-top: 30px;
+    display: block;
+    height: 223px;
+    useless {
+      width: 240px;
+      display: block;
+
+      navs {
+        font-size: 24px;
+        display: block;
+        line-height: 0.8;
+        margin-bottom: 30px;
+        width: 193px;
+        padding-left: 20px;
+        icon svg {
+          position: absolute;
+          margin-left: 30px;
+          margin-top: 11px;
+        }
+        span {
+          font-size: 12px;
+          color: $color-blue;
+        }
+      }
+
+      navs:after {
+        content: '';
+        width: 7px;
+        height: 40px;
+        /* background: red; */
+        display: block;
+        position: absolute;
+        background: linear-gradient(180deg, #006FEA 0%, rgba(0, 111, 234, 0) 100%);
+        margin-left: -20px;
+        margin-top: -40px;
+      }
+
+      navs:hover {
+        transform: translate(13px);
+        transition: 90ms;
+        cursor: pointer;
+      }
+    }
+    infos {
+      width: 1145px;
+      position: relative;
+      left: 294px;
+      height: 210px;
+      top: -208px;
+      display: inline-block;
+      trend {
+        border: 1px solid rgba(255, 255, 255, 0);
+        text-align: end;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center left;
+        tag {
+          font-size: 12px;
+          margin-top: 123px;
+          font-size: 12px;
+          display: block;
+          background-image: url(/assets/img/1653230705.png);
+          background-size: contain;
+          background-repeat: no-repeat;
+          background-position: center left;
+          display: block;
+          line-height: 3;
+          color: white;
+          height: 30px;
+          width: 471px;
+        }
+        titles {
+          font-size: 20px;
+          display: block;
+          width: 461px;
+          color: white;
+        }
+      }
+      trend:hover {
+        opacity: 0.7;
+        cursor: pointer;
+        transition: all 0.18s;
+      }
+    }
+  }
 }
+
+end {
+  display: block;
+  height: 299px;
+  background: #F8F8F8;
+  position: relative;
+  top: -1121px;
+  padding: 4%;
+  titles {
+    p {
+      font-size: 25px;
+      font-family: "Font Quan Xin Yi Guan Hei Ti";
+      color: $color_black;
+      display: block;
+      span {
+        color: $color-blue;
+      }
+    }
+    desc {
+      font-family: "Source Han Sans CN Regular";
+      color: $color-black;
+      width: 828px;
+      display: block;
+      margin-top: 11px;
+      margin-bottom: 15px;
+    }
+  }
+  btn-lat {
+    height: 50px;
+    display: block;
+    width: 330px;
+    btn {
+      background: #D9DADD;
+      width: 49px;
+      transform: skew(13deg);
+      height: 41px;
+      font-style: italic;
+      display: inline-table;
+      font-family: "Font Quan Xin Yi Guan Hei Ti";
+      margin-right: 21px;
+      cursor: pointer;
+      smip {
+        color: $color-blue;
+        display: block;
+      }
+      span {
+        color: $color-black;
+      }
+    }
+  }
+  btn:hover {
+    transition: all 0.38s;
+    box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    border-left: 14px solid #006fea;
+  }
+  end-logo {
+    background-image: url(/assets/img/1653234382.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center left;
+    height: 298px;
+    width: 496px;
+    display: block;
+    margin-top: -237px;
+    position: relative;
+    left: 886px;
+  }
+}
+copyright {
+  top: -1080px;
+  position: relative;
+  height: 65px;
+  display: block;
+  img {
+    width: 299px;
+  }
+  ciot {
+    right: 0px;
+    font-family: "Source Han Sans CN Regular";
+    font-size: 20px;
+    position: absolute;
+    height: 64.78px;
+    line-height: 4.5;
+  }
+}
+
