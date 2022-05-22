@@ -582,6 +582,62 @@ sidebar-info {
       top: 3px;
     }
   }
+  space {
+    width: 937px;
+    height: 141px;
+    display: block;
+    margin-bottom: 55px;
+    background-image: url(/assets/img/1653251951.png);
+    /* display: inline-block; */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center left;
+    margin-top: 20px;
+    logos {
+      width: 140px;
+      height: 119px;
+      display: inline-block;
+      /* top: 17px; */
+      position: revert;
+      margin-left: 10px;
+      margin-top: 9px;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center left;
+    }
+    titles {
+      font-size: 20px;
+      font-family: "Source Han Sans Bold";
+      color: $color-black;
+      span {
+        font-family: "Source Han Sans CN Regular";
+        font-size: 15px;
+        color: $color-grey;
+      }
+    }
+    rank {
+      /* top: 47px; */
+      position: relative;
+      left: 170px;
+      height: 50px;
+      display: block;
+      width: 753px;
+      margin-top: -83px;
+    }
+  }
+  space:hover {
+    cursor: pointer;
+    transition: all 0.18s;
+    background-image: url(/assets/img/1653253283.png);
+  }
+  decor {
+    svg {
+      width: 46.5px;
+      height: 845px;
+      margin-left: -120px;
+      margin-top: -1000px;
+    }
+  }
 }
 
 // bottom
