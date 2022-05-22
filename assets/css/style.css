@@ -737,4 +737,39 @@ copyright {
     height: 64.78px;
     line-height: 4.5; }
 
+end-nav {
+  color: #0B1746;
+  display: block;
+  position: relative;
+  top: -1140px; }
+  end-nav titles {
+    font-family: "Font Quan Xin Yi Guan Hei Ti";
+    font-size: 24px;
+    position: relative;
+    width: 212px;
+    top: 36px;
+    display: block;
+    text-align: center; }
+  end-nav navsa {
+    color: #006FEA;
+    font-family: "Font Quan Xin Yi Guan Hei Ti";
+    font-size: 24px;
+    float: left;
+    display: flex;
+    position: absolute;
+    left: 222px;
+    height: 77px;
+    width: 998px; }
+    end-nav navsa div {
+      line-height: 3;
+      width: 210px; }
+      end-nav navsa div nav-title {
+        text-align: center;
+        margin-left: 91px; }
+      end-nav navsa div img {
+        margin-left: 0px;
+        top: 12px;
+        margin-left: 37px;
+        position: absolute; }
+
 /*# sourceMappingURL=style.css.map */
