@@ -494,4 +494,63 @@ sidebar-info {
       left: -49px;
       top: 3px; }
 
+bottom {
+  position: relative;
+  top: -1136px;
+  width: 1424px; }
+  bottom banner {
+    font-family: "Font Quan Xin Yi Guan Hei Ti";
+    display: grid;
+    height: 226px;
+    background-image: url(/assets/img/1653185209.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center left;
+    position: relative;
+    color: #FFFFFF; }
+    bottom banner titles {
+      width: 162px;
+      height: 74px;
+      padding: 22px 22px 0px;
+      font-size: 20px; }
+    bottom banner titles:after {
+      content: "";
+      display: inline-block;
+      width: 29.9px;
+      height: 1.73px;
+      top: -6px;
+      position: relative;
+      background: white; }
+    bottom banner info {
+      width: 337px;
+      padding-left: 22px;
+      font-size: 13px;
+      height: 54px;
+      position: relative;
+      top: 13px; }
+    bottom banner btn {
+      width: 211px;
+      height: 40.5px;
+      text-align: start;
+      line-height: 2.5;
+      position: relative;
+      top: 50px;
+      background-image: url(/assets/img/1653185932.png);
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center left;
+      position: relative;
+      padding-left: 44px;
+      font-size: 15px;
+      cursor: pointer; }
+    bottom banner btn:hover {
+      opacity: 0.897;
+      transition: all 0.18s; }
+    bottom banner next {
+      width: 81px;
+      height: 39px;
+      right: -1260px;
+      position: relative;
+      font-size: 24px; }
+
 /*# sourceMappingURL=style.css.map */
