@@ -6103,6 +6103,7 @@ body.has-navbar-fixed-bottom {
   position: relative;
   width: 3.25rem;
   margin-left: auto;
+  height: 91px;
 }
 
 .navbar-burger span {
