@@ -142,11 +142,11 @@ $color_grey: #D9DADD;
       }
 
       .swiper-slide {
-        width: 70%;
-        height: 74%;
+        width: 42rem;
+        height: 11.56rem;
         border-radius: 5px;
         -moz-box-shadow: 6px 6px 21px #33333317;
-        box-shadow:6px 6px 21px #33333317;
+        box-shadow: 6px 6px 21px #33333317;
         border-radius: 5px;
       }
       .swiper-slide:nth-child {
@@ -251,13 +251,13 @@ $color_grey: #D9DADD;
         desc {
           font-size: 15px;
           display: block;
-          margin-left: 14px;
+          margin-left: 1rem;
         }
         .swiper-openness_engineering_group_schedule_rate {
           display: inline-block;
-          margin-top: 10px;
+          margin-top: 0.4rem;
           position: absolute;
-          margin-left: 10px;
+          margin-left: 0.5rem;
         }
         .swiper-openness_engineering_group_schedule_rate ul li {
           width: 41px;
@@ -294,12 +294,10 @@ $color_grey: #D9DADD;
         box-shadow: 6px 6px 21px #33333317;
         .main-con_next {
           height: 60%;
-          /* width: 97%; */
           font-size: 80px;
-          /* position: absolute; */
-          margin-right: 14px;
+          margin-right: 1rem;
           float: right;
-          margin-top: -1%;
+          margin-top: -2rem;
           color: #f7f7f7;
         }
         .main-con_list_logo {
@@ -323,13 +321,13 @@ $color_grey: #D9DADD;
           width: 64%;
           .column {
             display: block;
-            background: $color_blue;
+            background: #006FEA;
             margin-left: 15px;
-            width: 12%;
+            width: 3rem;
             height: 9px;
             float: left;
             transform: skew(50deg);
-            margin-top: 17px;
+            margin-top: 1rem;
             padding: 0;
           }
           .this {
@@ -359,10 +357,10 @@ $color_grey: #D9DADD;
         text-align: center;
         color: #B0B0B0;
         .bottom_information-icon {
-          width: 52px;
-          height: 52px;
+          width: 3rem;
+          height: 3rem;
           text-align: center;
-          margin-top: 5px;
+          margin-top: 0rem;
         }
         .this {
           color: $color_blue;
