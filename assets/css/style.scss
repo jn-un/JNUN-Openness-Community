@@ -426,50 +426,6 @@ $color_grey: #D9DADD;
     }
   }
 
-
-@media (max-width: 375px) {
-  mobile main-con list list-main {
-    /* border: 1px solid blue; */
-    /* margin-left: 110px; */
-    position: relative !important;
-    /* display: block; */
-    left: 7.5rem !important;
-    top: 1.7rem !important;
-  }
-  mobile main-con list .columns .column {
-    display: flex !important;
-    background: #006FEA !important;
-    margin-left: 15px !important;
-    width: 3rem !important;
-    height: 9px !important;
-    float: left !important;
-    transform: skew(50deg) !important;
-    margin-top: 17px !important;
-    padding: 0 !important;
-  }
-  mobile main-con list .main-con_next {
-    height: 3rem;
-    font-size: 80px;
-    margin-right: 1rem;
-    float: right;
-    margin-top: -0.7rem;
-    color: #f7f7f7;
-  }
-  mobile main-con list list-main {
-    /* border: 1px solid blue; */
-    /* margin-left: 110px; */
-    position: relative !important;
-    /* display: block; */
-    left: 4.5rem !important;
-    top: 1.7rem !important;
-  }
-  mobile main-con list .main-con_list_logo {
-    position: absolute;
-    width: 4.5rem;
-    margin-top: 1rem;
-  }
-}
-  
   /*
     标签选择
    */
