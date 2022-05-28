@@ -10,22 +10,22 @@ $color_grey: #D9DADD;
 */
 @font-face {
   font-family: "Noto Sans SC";
-  src: url("/assets/fonts/SourceHanSansCN-Medium.otf");
+  src: url("../../assets/fonts/SourceHanSansCN-Medium.otf");
 }
 
 @font-face {
   font-family: "Font Quan Xin Yi Guan Hei Ti";
-  src: url("/assets/fonts/Fontquan-XinYiGuanHeiTi.ttf");
+  src: url("../../assets/fonts/Fontquan-XinYiGuanHeiTi.ttf");
 }
 
 @font-face {
   font-family: "Source Han Sans Bold";
-  src: url("/assets/fonts/SourceHanSansCN-Bold.otf");
+  src: url("../../assets/fonts/SourceHanSansCN-Bold.otf");
 }
 
 @font-face {
   font-family: "Source Han Sans CN Regular";
-  src: url("/assets/fonts/SourceHanSansCN-Regular.otf");
+  src: url("../../assets/fonts/SourceHanSansCN-Regular.otf");
 }
 
 /*
@@ -82,9 +82,8 @@ $color_grey: #D9DADD;
   }
 }
 @media (max-width: 1024px) {
-  body {
-    -moz-transform: scale(0.5);
-    transform-origin: 50% top;
+  .navbar {
+    display: none;
   }
   .tabs {
     display: none;
@@ -92,8 +91,10 @@ $color_grey: #D9DADD;
   #contentLoadingSection {
     display: none;
   }
+
   // 移动端适配
   mobile {
+    display: block !important;
     hello {
       font-family: "Source Han Sans Bold";
       font-size: 35px;
@@ -142,11 +143,11 @@ $color_grey: #D9DADD;
       }
 
       .swiper-slide {
-        width: 42rem;
-        height: 11.56rem;
+        width: 70%;
+        height: 74%;
         border-radius: 5px;
         -moz-box-shadow: 6px 6px 21px #33333317;
-        box-shadow: 6px 6px 21px #33333317;
+        box-shadow:6px 6px 21px #33333317;
         border-radius: 5px;
       }
       .swiper-slide:nth-child {
@@ -251,13 +252,13 @@ $color_grey: #D9DADD;
         desc {
           font-size: 15px;
           display: block;
-          margin-left: 1rem;
+          margin-left: 14px;
         }
         .swiper-openness_engineering_group_schedule_rate {
           display: inline-block;
-          margin-top: 0.4rem;
+          margin-top: 10px;
           position: absolute;
-          margin-left: 0.5rem;
+          margin-left: 10px;
         }
         .swiper-openness_engineering_group_schedule_rate ul li {
           width: 41px;
@@ -294,10 +295,12 @@ $color_grey: #D9DADD;
         box-shadow: 6px 6px 21px #33333317;
         .main-con_next {
           height: 60%;
+          /* width: 97%; */
           font-size: 80px;
-          margin-right: 1rem;
+          /* position: absolute; */
+          margin-right: 14px;
           float: right;
-          margin-top: -2rem;
+          margin-top: -1%;
           color: #f7f7f7;
         }
         .main-con_list_logo {
@@ -321,13 +324,13 @@ $color_grey: #D9DADD;
           width: 64%;
           .column {
             display: block;
-            background: #006FEA;
+            background: $color_blue;
             margin-left: 15px;
-            width: 2rem;
+            width: 12%;
             height: 9px;
             float: left;
             transform: skew(50deg);
-            margin-top: 1rem;
+            margin-top: 17px;
             padding: 0;
           }
           .this {
@@ -357,10 +360,10 @@ $color_grey: #D9DADD;
         text-align: center;
         color: #B0B0B0;
         .bottom_information-icon {
-          width: 3rem;
-          height: 3rem;
+          width: 52px;
+          height: 52px;
           text-align: center;
-          margin-top: 0rem;
+          margin-top: 5px;
         }
         .this {
           color: $color_blue;
